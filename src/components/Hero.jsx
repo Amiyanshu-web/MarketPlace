@@ -29,7 +29,7 @@ const Hero = () => {
         Dive into a World of Cutting-Edge Models, Unveiling the Future of Technology at Your Fingertips!
       </p>
       <div className=''>
-        <Link to='/products' className='btn btn-primary'>
+        <Link to='/models' className='btn btn-primary'>
           EXPLORE!
         </Link>
       </div>

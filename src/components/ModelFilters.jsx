@@ -15,6 +15,7 @@ const ModelFilters = () => {
         name='name'
         size='input-sm'
         defaultValue={name}
+        placeholder ="Enter exact name"
       />
       <FormSelect
         label='select category'

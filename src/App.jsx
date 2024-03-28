@@ -7,6 +7,7 @@ import {
   Models,
   SingleModel,
   SingleFeature,
+  CreateModel
 } from './pages';
 
 import { ErrorElement } from './components';
@@ -16,7 +17,7 @@ import { loader as landingLoader } from './pages/Landing';
 import { loader as singleModelLoader } from './pages/SingleModel';
 import { loader as singleFeatureLoader } from './pages/SingleFeature';
 import { loader as modelsLoader } from './pages/Models';
-
+import {action as modelAction} from './components/CreateModelForm';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -56,6 +57,11 @@ const router = createBrowserRouter([
         errorElement: <ErrorElement />,
         loader: singleFeatureLoader(queryClient),
       },
+      {
+        path:'createModel',
+        element:<CreateModel/>,
+        action:modelAction(queryClient),
+      }
     ],
   }
 ]);

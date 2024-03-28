@@ -8,3 +8,4 @@ export { default as SectionTitle } from './SectionTitle';
 export { default as ModelFilters } from './ModelFilters';
 export { default as ModelsContainer } from './ModelsContainer';
 export { default as Loading } from './Loading';
+export {default as CreateModelForm} from './CreateModelForm';

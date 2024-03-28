@@ -1,6 +1,7 @@
 import { SiCoinmarketcap } from "react-icons/si";
-import { BsCart3, BsMoonFill, BsSunFill } from 'react-icons/bs';
+import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 import { FaBarsStaggered } from 'react-icons/fa6';
+import { MdLibraryAdd } from "react-icons/md";
 import { NavLink } from 'react-router-dom';
 import NavLinks from './NavLinks';
 
@@ -22,9 +23,9 @@ const Navbar = () => {
           {/* TITLE */}
           <NavLink
             to='/'
-          className='hidden lg:flex text-2xl items-center'
+            className='hidden lg:flex text-2xl items-center'
           >
-            <SiCoinmarketcap/>
+            <SiCoinmarketcap />
           </NavLink>
           {/* DROPDOWN */}
           <div className='dropdown'>
@@ -53,7 +54,12 @@ const Navbar = () => {
             {/* moon icon*/}
             <BsMoonFill className='swap-off h-4 w-4' />
           </label>
-          {/* CART LINK */}
+          {/* Add model LINK */}
+          <NavLink to='/createModel' className='btn btn-ghost btn-circle btn-md ml-4'>
+            <div className='indicator'>
+              <MdLibraryAdd className='h-6 w-6' />
+            </div>
+          </NavLink>
         </div>
       </div>
     </nav>
