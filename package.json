@@ -11,11 +11,9 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
-    "@srsholmes/react-code-input": "^0.0.5",
     "@tanstack/react-query": "^4.32.6",
     "ace-builds": "^1.32.8",
     "axios": "^1.4.0",
-    "dayjs": "^1.11.9",
     "react": "^18.2.0",
     "react-ace": "^11.0.1",
     "react-dom": "^18.2.0",
