@@ -23,11 +23,11 @@ const Navbar = () => {
           {/* LOGO */}
           <NavLink
             to='/'
-            className='hidden lg:flex text-2xl items-center'
+            className='hidden lg:flex  items-center'
           >
-            <SiCoinmarketcap />
+            <SiCoinmarketcap size={25} />
+            <p className="font-bold pl-1">MarketPlace</p>
           </NavLink>
-          <p className="font-bold pl-1">MarketPlace</p>
           {/* DROPDOWN */}
           <div className='dropdown'>
             <label tabIndex={0} className='btn btn-ghost lg:hidden'>
