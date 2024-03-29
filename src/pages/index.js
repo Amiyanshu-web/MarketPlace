@@ -5,3 +5,4 @@ export { default as Models } from './Models';
 export { default as SingleModel } from './SingleModel';
 export { default as SingleFeature } from './SingleFeature';
 export {default as CreateModel} from './CreateModel'
+export {default as Try} from './Try'

@@ -9,3 +9,5 @@ export { default as ModelFilters } from './ModelFilters';
 export { default as ModelsContainer } from './ModelsContainer';
 export { default as Loading } from './Loading';
 export {default as CreateModelForm} from './CreateModelForm';
+export { default as TextToImage } from './TextToImage';
+export { default as ImageToText } from './ImageToText';

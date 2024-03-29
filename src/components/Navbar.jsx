@@ -20,13 +20,14 @@ const Navbar = () => {
     <nav className='bg-base-200'>
       <div className='navbar align-element'>
         <div className='navbar-start'>
-          {/* TITLE */}
+          {/* LOGO */}
           <NavLink
             to='/'
             className='hidden lg:flex text-2xl items-center'
           >
             <SiCoinmarketcap />
           </NavLink>
+          <p className="font-bold pl-1">MarketPlace</p>
           {/* DROPDOWN */}
           <div className='dropdown'>
             <label tabIndex={0} className='btn btn-ghost lg:hidden'>

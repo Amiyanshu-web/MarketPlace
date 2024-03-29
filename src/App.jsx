@@ -7,7 +7,8 @@ import {
   Models,
   SingleModel,
   SingleFeature,
-  CreateModel
+  CreateModel,
+  Try
 } from './pages';
 
 import { ErrorElement } from './components';
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
         path:'createModel',
         element:<CreateModel/>,
         action:modelAction(queryClient),
+      },
+      {
+        path:'try',
+        element:<Try/>
       }
     ],
   }
